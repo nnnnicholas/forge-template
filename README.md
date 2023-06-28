@@ -1,7 +1,6 @@
-# juice-contract-template
-Template used to code juicy solidity stuff - includes forge, libs, etc. 
+# forge-template
 
-This template is a good starting point for building solidity extensions to the Juicebox Protocol. Forking this template may help you to avoid submodule related dependency issues down the road.
+Forge boilerplate repo.
 
 # Getting started
 ## Prerequisites
@@ -12,7 +11,7 @@ Install Forge with `curl -L https://foundry.paradigm.xyz | bash`. If you already
 Follow the instructions in the [Yarn Docs](https://classic.yarnpkg.com/en/docs/install). People tend to use the latest version of Yarn 1 (not Yarn 2+).
 
 ## Install Included Dependencies
-Install the included dependencies (forge tests, Juice-contracts-V3, OZ) with `forge install && yarn install`.
+Install the included dependencies with `forge install && yarn install`.
 
 # Adding dependencies
 ## With Yarn

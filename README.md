@@ -7,15 +7,15 @@ Forge boilerplate repo.
 ### Install & Update Foundry
 Install Forge with `curl -L https://foundry.paradigm.xyz | bash`. If you already have Foundry installed, run `foundryup` to update to the latest version. More detailed instructions can be found in the [Foundry Book](https://book.getfoundry.sh/getting-started/installation).
 
-### Install & Update Yarn
-Follow the instructions in the [Yarn Docs](https://classic.yarnpkg.com/en/docs/install). People tend to use the latest version of Yarn 1 (not Yarn 2+).
+### Install & Update PNPM
+Follow the instructions in the PNPM docs.
 
 ## Install Included Dependencies
-Install the included dependencies with `forge install && yarn install`.
+Install the included dependencies with `forge install && pnpm install`.
 
 # Adding dependencies
-## With Yarn
-If the dependency you would like to install has an NPM package, use `yarn add [package]` where [package] is the package name. This will install the dependency to `node_modules`.
+## With pnpm
+If the dependency you would like to install has an NPM package, use `pnpm add [package]` where [package] is the package name. This will install the dependency to `node_modules`.
 
 Tell forge to look for node libraries by adding `node_modules` to the `foundry.toml` by updating `libs` like so: `libs = ['lib', 'node_modules']`.
 
@@ -31,8 +31,8 @@ If nested dependencies are not installing, try this workaround `git submodule up
 More information on remappings is available in the Forge Book.
 
 # Updating dependencies
-## With Yarn
-Run `yarn upgrade [package]`.
+## With PNPM
+Run `pnpm upgrade [package]`.
 
 ## With Forge
 Run `foundryup` to update forge. 
